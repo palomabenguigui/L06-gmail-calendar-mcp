@@ -81,3 +81,20 @@ Secrets (`token.json`, `client_secret*.json`, `credentials.json`, `.env`) are gi
 - "Write a Gmail draft to myself with the subject "L06 test" and add a calendar event for today, 4 hours from now, called "MCP works"."
 - "Find a free hour tomorrow between 09:00 and 17:00 and add an event called "Study group" there."
 - "Great. Now send the "L06 test" draft, and delete the "Study group" event." (the agent refused: no such tool)
+
+## Screenshots
+
+![Calendar question and the draft + event request](screenshots/01.png)
+*01 – Claude Code answers "What do I have in my calendar tomorrow?" and creates the "L06 test" draft and the "MCP works" event.*
+
+![L06 test draft in Gmail](screenshots/02.png)
+*02 – The "L06 test" draft in Gmail Drafts, saved but not sent.*
+
+![MCP works event in Google Calendar](screenshots/03.png)
+*03 – The "MCP works" event in Google Calendar, Wednesday 25 November, 8–9 pm.*
+
+![Study group request](screenshots/04.png)
+*04 – Claude Code finds a free hour and adds "Study group" on 26 November, 09:00–10:00.*
+
+![Refused send and delete](screenshots/05.png)
+*05 – Asked to send the draft and delete the event, the agent refuses: the server has no such tools.*
