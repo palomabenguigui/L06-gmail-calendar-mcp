@@ -1,0 +1,7 @@
+# Secrets - never commit (they live in $GOOGLE_PRIVATE_DIR, not here)
+token.json
+client_secret*.json
+credentials.json
+.env
+.venv/
+__pycache__/
